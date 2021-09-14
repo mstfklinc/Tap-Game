@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA30885626F0AEC2004E9ECB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA30885526F0AEC2004E9ECB /* AppDelegate.m */; };
+		FA30885926F0AEC2004E9ECB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA30885826F0AEC2004E9ECB /* SceneDelegate.m */; };
+		FA30885C26F0AEC2004E9ECB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA30885B26F0AEC2004E9ECB /* ViewController.m */; };
+		FA30885F26F0AEC2004E9ECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA30885D26F0AEC2004E9ECB /* Main.storyboard */; };
+		FA30886226F0AEC2004E9ECB /* TapMeFast.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA30886026F0AEC2004E9ECB /* TapMeFast.xcdatamodeld */; };
+		FA30886426F0AEC5004E9ECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA30886326F0AEC5004E9ECB /* Assets.xcassets */; };
+		FA30886726F0AEC5004E9ECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA30886526F0AEC5004E9ECB /* LaunchScreen.storyboard */; };
+		FA30886A26F0AEC5004E9ECB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA30886926F0AEC5004E9ECB /* main.m */; };
+		FA30887426F0AEC5004E9ECB /* TapMeFastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA30887326F0AEC5004E9ECB /* TapMeFastTests.m */; };
+		FA30887F26F0AEC5004E9ECB /* TapMeFastUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA30887E26F0AEC5004E9ECB /* TapMeFastUITests.m */; };
+		FA30888D26F0AF31004E9ECB /* PORKYS_.TTF in Resources */ = {isa = PBXBuildFile; fileRef = FA30888C26F0AF31004E9ECB /* PORKYS_.TTF */; };
+		FA30888E26F0AF31004E9ECB /* PORKYS_.TTF in Resources */ = {isa = PBXBuildFile; fileRef = FA30888C26F0AF31004E9ECB /* PORKYS_.TTF */; };
+		FA30888F26F0AF31004E9ECB /* PORKYS_.TTF in Resources */ = {isa = PBXBuildFile; fileRef = FA30888C26F0AF31004E9ECB /* PORKYS_.TTF */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA30887026F0AEC5004E9ECB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA30884926F0AEC1004E9ECB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA30885026F0AEC2004E9ECB;
+			remoteInfo = TapMeFast;
+		};
+		FA30887B26F0AEC5004E9ECB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA30884926F0AEC1004E9ECB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA30885026F0AEC2004E9ECB;
+			remoteInfo = TapMeFast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA30885126F0AEC2004E9ECB /* TapMeFast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapMeFast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA30885426F0AEC2004E9ECB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA30885526F0AEC2004E9ECB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA30885726F0AEC2004E9ECB /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		FA30885826F0AEC2004E9ECB /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		FA30885A26F0AEC2004E9ECB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA30885B26F0AEC2004E9ECB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA30885E26F0AEC2004E9ECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA30886126F0AEC2004E9ECB /* TapMeFast.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TapMeFast.xcdatamodel; sourceTree = "<group>"; };
+		FA30886326F0AEC5004E9ECB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA30886626F0AEC5004E9ECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA30886826F0AEC5004E9ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA30886926F0AEC5004E9ECB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA30886F26F0AEC5004E9ECB /* TapMeFastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapMeFastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA30887326F0AEC5004E9ECB /* TapMeFastTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapMeFastTests.m; sourceTree = "<group>"; };
+		FA30887526F0AEC5004E9ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA30887A26F0AEC5004E9ECB /* TapMeFastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapMeFastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA30887E26F0AEC5004E9ECB /* TapMeFastUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapMeFastUITests.m; sourceTree = "<group>"; };
+		FA30888026F0AEC5004E9ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA30888C26F0AF31004E9ECB /* PORKYS_.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = PORKYS_.TTF; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA30884E26F0AEC2004E9ECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA30886C26F0AEC5004E9ECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA30887726F0AEC5004E9ECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA30884826F0AEC1004E9ECB = {
+			isa = PBXGroup;
+			children = (
+				FA30885326F0AEC2004E9ECB /* TapMeFast */,
+				FA30887226F0AEC5004E9ECB /* TapMeFastTests */,
+				FA30887D26F0AEC5004E9ECB /* TapMeFastUITests */,
+				FA30885226F0AEC2004E9ECB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA30885226F0AEC2004E9ECB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA30885126F0AEC2004E9ECB /* TapMeFast.app */,
+				FA30886F26F0AEC5004E9ECB /* TapMeFastTests.xctest */,
+				FA30887A26F0AEC5004E9ECB /* TapMeFastUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA30885326F0AEC2004E9ECB /* TapMeFast */ = {
+			isa = PBXGroup;
+			children = (
+				FA30885426F0AEC2004E9ECB /* AppDelegate.h */,
+				FA30885526F0AEC2004E9ECB /* AppDelegate.m */,
+				FA30885726F0AEC2004E9ECB /* SceneDelegate.h */,
+				FA30885826F0AEC2004E9ECB /* SceneDelegate.m */,
+				FA30885A26F0AEC2004E9ECB /* ViewController.h */,
+				FA30885B26F0AEC2004E9ECB /* ViewController.m */,
+				FA30885D26F0AEC2004E9ECB /* Main.storyboard */,
+				FA30886326F0AEC5004E9ECB /* Assets.xcassets */,
+				FA30886526F0AEC5004E9ECB /* LaunchScreen.storyboard */,
+				FA30886826F0AEC5004E9ECB /* Info.plist */,
+				FA30886926F0AEC5004E9ECB /* main.m */,
+				FA30888C26F0AF31004E9ECB /* PORKYS_.TTF */,
+				FA30886026F0AEC2004E9ECB /* TapMeFast.xcdatamodeld */,
+			);
+			path = TapMeFast;
+			sourceTree = "<group>";
+		};
+		FA30887226F0AEC5004E9ECB /* TapMeFastTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA30887326F0AEC5004E9ECB /* TapMeFastTests.m */,
+				FA30887526F0AEC5004E9ECB /* Info.plist */,
+			);
+			path = TapMeFastTests;
+			sourceTree = "<group>";
+		};
+		FA30887D26F0AEC5004E9ECB /* TapMeFastUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA30887E26F0AEC5004E9ECB /* TapMeFastUITests.m */,
+				FA30888026F0AEC5004E9ECB /* Info.plist */,
+			);
+			path = TapMeFastUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA30885026F0AEC2004E9ECB /* TapMeFast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA30888326F0AEC5004E9ECB /* Build configuration list for PBXNativeTarget "TapMeFast" */;
+			buildPhases = (
+				FA30884D26F0AEC2004E9ECB /* Sources */,
+				FA30884E26F0AEC2004E9ECB /* Frameworks */,
+				FA30884F26F0AEC2004E9ECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapMeFast;
+			productName = TapMeFast;
+			productReference = FA30885126F0AEC2004E9ECB /* TapMeFast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA30886E26F0AEC5004E9ECB /* TapMeFastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA30888626F0AEC5004E9ECB /* Build configuration list for PBXNativeTarget "TapMeFastTests" */;
+			buildPhases = (
+				FA30886B26F0AEC5004E9ECB /* Sources */,
+				FA30886C26F0AEC5004E9ECB /* Frameworks */,
+				FA30886D26F0AEC5004E9ECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA30887126F0AEC5004E9ECB /* PBXTargetDependency */,
+			);
+			name = TapMeFastTests;
+			productName = TapMeFastTests;
+			productReference = FA30886F26F0AEC5004E9ECB /* TapMeFastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA30887926F0AEC5004E9ECB /* TapMeFastUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA30888926F0AEC5004E9ECB /* Build configuration list for PBXNativeTarget "TapMeFastUITests" */;
+			buildPhases = (
+				FA30887626F0AEC5004E9ECB /* Sources */,
+				FA30887726F0AEC5004E9ECB /* Frameworks */,
+				FA30887826F0AEC5004E9ECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA30887C26F0AEC5004E9ECB /* PBXTargetDependency */,
+			);
+			name = TapMeFastUITests;
+			productName = TapMeFastUITests;
+			productReference = FA30887A26F0AEC5004E9ECB /* TapMeFastUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA30884926F0AEC1004E9ECB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FA30885026F0AEC2004E9ECB = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					FA30886E26F0AEC5004E9ECB = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = FA30885026F0AEC2004E9ECB;
+					};
+					FA30887926F0AEC5004E9ECB = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = FA30885026F0AEC2004E9ECB;
+					};
+				};
+			};
+			buildConfigurationList = FA30884C26F0AEC1004E9ECB /* Build configuration list for PBXProject "TapMeFast" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA30884826F0AEC1004E9ECB;
+			productRefGroup = FA30885226F0AEC2004E9ECB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA30885026F0AEC2004E9ECB /* TapMeFast */,
+				FA30886E26F0AEC5004E9ECB /* TapMeFastTests */,
+				FA30887926F0AEC5004E9ECB /* TapMeFastUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA30884F26F0AEC2004E9ECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA30886726F0AEC5004E9ECB /* LaunchScreen.storyboard in Resources */,
+				FA30886426F0AEC5004E9ECB /* Assets.xcassets in Resources */,
+				FA30888D26F0AF31004E9ECB /* PORKYS_.TTF in Resources */,
+				FA30885F26F0AEC2004E9ECB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA30886D26F0AEC5004E9ECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA30888E26F0AF31004E9ECB /* PORKYS_.TTF in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA30887826F0AEC5004E9ECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA30888F26F0AF31004E9ECB /* PORKYS_.TTF in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA30884D26F0AEC2004E9ECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA30886A26F0AEC5004E9ECB /* main.m in Sources */,
+				FA30885C26F0AEC2004E9ECB /* ViewController.m in Sources */,
+				FA30885626F0AEC2004E9ECB /* AppDelegate.m in Sources */,
+				FA30885926F0AEC2004E9ECB /* SceneDelegate.m in Sources */,
+				FA30886226F0AEC2004E9ECB /* TapMeFast.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA30886B26F0AEC5004E9ECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA30887426F0AEC5004E9ECB /* TapMeFastTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA30887626F0AEC5004E9ECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA30887F26F0AEC5004E9ECB /* TapMeFastUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA30887126F0AEC5004E9ECB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA30885026F0AEC2004E9ECB /* TapMeFast */;
+			targetProxy = FA30887026F0AEC5004E9ECB /* PBXContainerItemProxy */;
+		};
+		FA30887C26F0AEC5004E9ECB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA30885026F0AEC2004E9ECB /* TapMeFast */;
+			targetProxy = FA30887B26F0AEC5004E9ECB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA30885D26F0AEC2004E9ECB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA30885E26F0AEC2004E9ECB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA30886526F0AEC5004E9ECB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA30886626F0AEC5004E9ECB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA30888126F0AEC5004E9ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA30888226F0AEC5004E9ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA30888426F0AEC5004E9ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TapMeFast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mustafakilinc.TapMeFast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA30888526F0AEC5004E9ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TapMeFast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mustafakilinc.TapMeFast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA30888726F0AEC5004E9ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TapMeFastTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mustafakilinc.TapMeFastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapMeFast.app/TapMeFast";
+			};
+			name = Debug;
+		};
+		FA30888826F0AEC5004E9ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TapMeFastTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mustafakilinc.TapMeFastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapMeFast.app/TapMeFast";
+			};
+			name = Release;
+		};
+		FA30888A26F0AEC5004E9ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TapMeFastUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mustafakilinc.TapMeFastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TapMeFast;
+			};
+			name = Debug;
+		};
+		FA30888B26F0AEC5004E9ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TapMeFastUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mustafakilinc.TapMeFastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TapMeFast;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA30884C26F0AEC1004E9ECB /* Build configuration list for PBXProject "TapMeFast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA30888126F0AEC5004E9ECB /* Debug */,
+				FA30888226F0AEC5004E9ECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA30888326F0AEC5004E9ECB /* Build configuration list for PBXNativeTarget "TapMeFast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA30888426F0AEC5004E9ECB /* Debug */,
+				FA30888526F0AEC5004E9ECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA30888626F0AEC5004E9ECB /* Build configuration list for PBXNativeTarget "TapMeFastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA30888726F0AEC5004E9ECB /* Debug */,
+				FA30888826F0AEC5004E9ECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA30888926F0AEC5004E9ECB /* Build configuration list for PBXNativeTarget "TapMeFastUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA30888A26F0AEC5004E9ECB /* Debug */,
+				FA30888B26F0AEC5004E9ECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA30886026F0AEC2004E9ECB /* TapMeFast.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA30886126F0AEC2004E9ECB /* TapMeFast.xcdatamodel */,
+			);
+			currentVersion = FA30886126F0AEC2004E9ECB /* TapMeFast.xcdatamodel */;
+			path = TapMeFast.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FA30884926F0AEC1004E9ECB /* Project object */;
+}
